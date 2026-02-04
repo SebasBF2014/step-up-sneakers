@@ -13,14 +13,18 @@ st.set_page_config(
 # Estilos CSS
 st.markdown("""
     <style>
-        body, h1, h2, h3, h4, h5, h6, p, span, div {
-            color: red !important;
-        }
         .product-card {
             background-color: #f0f2f6;
             padding: 15px;
             border-radius: 10px;
             margin: 10px 0;
+            color: red;
+        }
+        .product-card h3 {
+            color: red;
+        }
+        .product-card p {
+            color: red;
         }
         .price-tag {
             font-size: 24px;
@@ -36,7 +40,7 @@ st.markdown("""
         }
         .success-message {
             background-color: #d4edda;
-            color: red;
+            color: #155724;
             padding: 10px;
             border-radius: 5px;
             margin: 10px 0;
